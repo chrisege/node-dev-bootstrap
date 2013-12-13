@@ -32,4 +32,5 @@ Vagrant::Config.run do |config|
   config.vm.provision :shell, :inline => "sudo apt-get install -y ruby1.9.1-dev --no-install-recommends"
   config.vm.provision :shell, :inline => "sudo apt-get install -y ruby1.9.3 --no-install-recommends"
   config.vm.provision :shell, :inline => "sudo gem install cf"
+  config.vm.provision :shell, :inline => "sudo npm install -g yo"
 end
