@@ -1,3 +1,11 @@
+# My node.js dev environment (in-progress)
+
+Todos:
+* Figure out how to install npm packages (grunt-cli, etc) via chef
+* Install git
+* Install compass (will i need ruby or is that already there?)
+
+## Notes from the upstream repo:
 This is a Vagrant file and set of Chef recipes for building a basic node development environment.
 If you're not familiar with Vagrant, read more about it at http://www.vagrantup.com.
 
